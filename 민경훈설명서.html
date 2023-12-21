@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="../.css/민경훈설명서.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>   
+            AI히든싱어 사이트
+        </title>
+    </head>
+    <body>
+<div id ="header">
+    <h1 id = "title">AI히든싱어</h1>  <!--페이지 안 제목-->
+    <h1 id = "info">설명서</h1> 
+</div>
+<div id ="contents">
+    <p id = "information"></p>
+    <script>
+        let information = document.getElementById("information");
+        information.textContent = `AI히든싱어에 오신 것을 환영합니다. 밑의 시작하기 버튼을 더블클릭하면 AI민경훈씨와 진짜 민경훈씨의 대결이 펼쳐집니다. 두 노래를 듣고 진짜 민경훈씨가 부른 것 같다고 생각되는 노래 밑 선택버튼을 더블클릭 하시면 됩니다. 자, 마음의 준비가 되셨다면 시작해주세요!`;
+    </script>
+    <button onclick = "startFunction()" id = "startButton">시작하기</button> <!--시작하기 버튼-->
+    <script src ="../.js/AIHS민경훈.js"></script>
+</div>
+    </body>
+</html>

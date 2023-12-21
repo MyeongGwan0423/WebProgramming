@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8" />
+        <title>AI히든싱어 사이트</title> <!--윗 제목-->
+        <link href="../.css/민경훈결과.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </header>
+    <body>
+            <div id ="header">   <!--윗부분-->
+                <h1 id = "title">AI히든싱어</h1>
+                <h1 id = "rslt">결과</h1>
+            </div>
+            <div id ="contents">
+                <script src ="AIHS민경훈.js"></script>
+                <p id = "result"></p>
+                <nav>
+                    <ul>
+                      <a id = "goFirstScreen" href="../.html/AIHiddenSinger.html" target="_self">처음화면으로 돌아가기</a>
+                    </ul>
+                  </nav>
+                <script>
+                    let queryString = window.location.search;
+                    let urlParams = new URLSearchParams(queryString);     
+                    let resultValue = urlParams.get('resultValue');
+                    let result = document.getElementById("result");
+                    if(resultValue!==null&&resultValue!=="null"){ // 쿼리 문자열로 받아서 문자열null인지 확인해야 한다고 함
+                    result.textContent = `당신이 맞춘 개수는 ${resultValue}개 입니다.`;
+                    } else {
+                    result.textContent  =`당신이 맞춘 개수는 0개입니다.`;
+                    }
+                </script>
+            </div>
+            <div id = "footer">
+                    <h2>노래 출처</h2>
+                    <p class = "source">발걸음: https://www.youtube.com/watch?v=NZ-BGdwGrgs</p>
+                    <p class = "source">잠시만 안녕: https://www.youtube.com/watch?v=h3dY8tON734</p>
+                    <p class = "source">너를 보내고: https://www.youtube.com/watch?v=GTLOQ8KTCBo&t=1193s </p>
+                    <p class = "source">응급실: https://www.youtube.com/watch?v=QJ9zyNeNTZM</p>
+                    <p class = "source">세월이 가면: https://www.youtube.com/watch?v=SryE3maksPM</p>
+                    <p class = "source">다행이다: https://www.youtube.com/watch?v=koymluDSlCE </p>
+            </div>
+    </body>
+</html>

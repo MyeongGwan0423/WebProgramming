@@ -1,0 +1,44 @@
+#header{  /*윗 부분*/
+    height:18vh;
+    width:99.5vw;
+    padding-left:10px;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+#title{  /*AI히든싱어 부분*/
+    color:green;
+    font-size:38px;
+    padding-left:10px;
+    margin-bottom:10px
+}
+body{
+    margin: 0px;
+}
+#info{  /* 설명서 부분 */
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#information{
+    margin-top: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    white-space: pre-line;
+    font-size: 37px;
+}
+#startButton{
+    height:5vh;
+    width:10vw;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    font-size:15px;
+}

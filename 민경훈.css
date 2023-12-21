@@ -1,0 +1,63 @@
+#header{  /*윗 부분*/
+    height:18vh;
+    width:99.5vw;
+    padding-left:10px;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: aquamarine;
+}
+#title{  /*AI히든싱어 부분*/
+    color:green;
+    font-size:38px;
+    padding-left:10px;
+}
+body{     /*중간 부분*/
+    margin:0;
+}
+
+#number{  /* 1/3부분 */
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+#contents{ /*오디오 파일 넣을 곳(바꿔야 할듯)*/
+    height:68vh;
+    width:99.5vw;
+}
+#footer{ /*선택 버튼 있는 곳*/
+    margin-left:auto;
+    margin-right:auto;
+    padding:0%;
+    height:10vh;
+    width:99.5vw;
+}
+.button{  /*선택 버튼*/
+    height:10vh;
+    width:48.7vw;
+    margin:0.1vw;
+    font-size: 50px;
+}    /*유튜브링크인데 오디오 파일로 변환 예정*/
+#발걸음{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -77%);
+}
+#발걸음-글자{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+}
+#잠시만-안녕{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -77%);
+}
+#잠시만-안녕-글자{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}

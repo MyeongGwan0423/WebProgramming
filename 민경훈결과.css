@@ -1,0 +1,45 @@
+#header{
+    height:18vh;
+    width:99.5vw;
+    padding-left:10px;
+    display: flex; 
+    justify-content:center; 
+    align-items: center; 
+    background-color: aquamarine;
+}
+body{
+    margin: 0px;
+}
+#title{  /*AI히든싱어 부분*/
+    color:green;
+    font-size:38px;
+    padding-left:10px;
+}
+#rslt{  /*결과 단어*/
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+#result { /*결과 출력*/
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 80px;
+}
+#contents{
+    width:99.5vw;
+}
+#goFirstScreen{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -77%);
+}
+#footer{
+    position: absolute;
+    top: 65%;
+    left:10%;
+    transform: translate(0%,0%);
+}

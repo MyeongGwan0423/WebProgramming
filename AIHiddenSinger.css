@@ -1,0 +1,50 @@
+a {
+color:blue;
+font-size:35px;
+font-family: 'Yeon Sung', cursive;
+}
+body{
+    margin:0;
+}
+h1 {
+    color:green;
+    font-size:38px;
+}
+h2{
+    margin:5px;
+}
+
+#header{
+    height:18vh;
+    width:99.5vw;
+    padding-left:10px;
+    display: flex; 
+    justify-content:center; 
+    align-items: center; 
+    background-color: aquamarine;
+}
+#searchBar{
+    border: #00ff00 3px solid;
+    border-radius: 25px;
+    height: 40px;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+#searchBar input {
+    border-radius: 25px;
+    width: 99%;
+    height: 90%;
+}
+
+#singerContainer {
+    display: flex;
+    margin:5px;
+  }
+  
+  .singer {
+    margin-right: 20px;
+  }
+  .singerName{
+    margin-left:15%;
+  }
